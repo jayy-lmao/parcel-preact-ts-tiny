@@ -4,7 +4,7 @@ import { useQuery } from "graphql-hooks";
 const COUNTRY_QUERY = `
 query{
   continents{
-    id
+    code
     name
   }
 }
@@ -17,8 +17,8 @@ function CountryList() {
 
   return (
     <ul>
-      {data.continents.map(({ id, name }) => (
-        <li key={id}>{name}</li>
+      {data.continents.map(({ code, name }) => (
+        <li key={code}>{name}</li>
       ))}
     </ul>
   );

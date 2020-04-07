@@ -10,6 +10,7 @@ function Navbar() {
         <Link href="/home">home</Link>
         <Link href="/info">info</Link>
         <Link href="/limerick">Limerick</Link>
+        <Link href="/countries">Continents</Link>
       </section>
     </div>
   );

@@ -3,7 +3,7 @@ import { h } from "preact";
 import CountryList from "../components/country-list";
 
 const client = new GraphQLClient({
-  url: "https://countries.trevorblades.com/",
+  url: "https://countries.trevorblades.com/graphql",
 });
 
 function CountriesPage() {
