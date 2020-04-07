@@ -1,0 +1,32 @@
+
+.navbar {
+  background-color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.navbar__header {
+  color: white;
+  width: 50%;
+}
+
+.navbar__items {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: black;
+    border-radius: 3px;
+    transition: 0.3s;
+    transition-timing-function: ease-out;
+    &:hover {
+      background-color: grey;
+    }
+  }
+}

@@ -9,7 +9,8 @@
     "build:prod": "parcel build src/index.html --experimental-scope-hoisting"
   },
   "dependencies": {
-    "preact": "^10.3.4"
+    "preact": "^10.3.4",
+    "wouter": "^2.4.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
